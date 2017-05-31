@@ -1,0 +1,195 @@
+body{
+	color: #9E9E9E;
+	font-family: Roboto-Regular;
+	width: 100%;
+}
+
+
+.imagen-caract{
+	width: 80%;
+}
+
+#laApp{
+	height: 660px;
+}
+
+#laApp img{
+	height: 660px;
+}
+
+#laApp .carousel-inner{
+	overflow: visible;
+}
+
+.mayus{
+	text-transform: uppercase;
+}
+
+.minus{
+	text-transform: lowercase;
+}
+
+#registro{
+	height: 520px;
+	background-image: url("../images/pie.jpeg");
+	color:#fff;
+	padding-top: 40px;
+}
+
+#registro h2{
+	letter-spacing: 0.8px;
+	font-size: 30px;
+	font-family: roboto-Bold;
+}
+
+#registro label{
+	color: #c46c38;
+}
+
+#caracteristicas{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+header{
+	background:#37474f;
+	height: 50px;
+	color: #fff;
+	padding-right: 2.3em;
+	padding-left: 2.3em;
+	font-family: roboto-Thin;
+	width: 100%;
+}
+
+header h3{
+	display: inline-block;
+	margin-top: 0.5em;
+}
+
+header #grpCuenta{
+	display: inline-block;
+	float: right;
+	margin-top: 0.5em;
+}
+
+header #grpCuenta #cmbCuenta{
+	margin-top: 0em;
+	margin-bottom: 0em;
+	vertical-align: middle;
+}
+
+footer{
+	background:#37474f;
+	height: 125px;
+	color: #fff;
+}
+
+footer .row{
+	padding-left: 62px;
+	padding-right: 62px;
+	padding-top: 15px;
+}
+
+footer .col-md-6{
+	vertical-align: middle;
+	font-family: roboto-Thin;
+}
+
+.campoTexto{
+	height: 500px;
+	width: 80%;
+}
+
+.menuDirectorio{
+	padding-top: 0.2em;
+}
+
+#visualizarDirectorio{
+	background-color: #455A64;
+	width: 100%;
+	margin: 0em;
+}
+
+#directorio{
+	width: 100%;
+	padding-top: 2em;
+	height: 260px;
+	margin: 0 auto;
+}
+
+.editor {
+	padding-top: 10px;
+	width: 95%;
+	margin: 0 auto;
+	padding-bottom: 0em;
+}
+
+#areaMultimedia{
+	padding-left: 6em;
+}
+
+.multimedia{
+	height: 170px;
+}
+
+.verde{
+	background-color: #006064;
+	color: #fff;
+	border-radius: 10px;
+	font-style: italic;
+	padding-top: 20px;
+	height: 150px;
+	text-align: center;
+}
+
+.anaranjado{
+	background-color: #ef6c00;
+	color: #fff;	
+	border-radius: 10px;
+	font-style: italic;
+	padding-top: 20px;
+	height: 170px;
+	text-align: center;
+	margin-top: -0.8em;
+	margin-bottom: 0.5em;
+}
+
+.blanco{
+	background-color: #fff;
+	font-style: italic;
+	padding-top: 20px;
+	height: 170px;
+	text-align: center;
+}
+
+.controles{
+	padding-top: 0.7em;
+	background:#37474f;
+	height: 43px;
+	color: #fff;
+	margin: 0em;
+}
+
+.botonGuardar{
+	margin-left: 2em;
+	background: #006064;
+	color: #fff;
+	border-radius: 10px;
+	height: 50px;
+	text-align: center;
+}
+
+ @font-face{
+	font-family: roboto-Regular;
+	src: url("../fonts/Roboto-Regular.ttf");
+ }
+
+ @font-face{
+	font-family: roboto-Thin;
+	src: url("../fonts/Roboto-Thin.ttf");
+ }
+
+ @font-face{
+	font-family: roboto-Bold;
+	src: url("../fonts/Roboto-BoldCondensed.ttf");
+ }
